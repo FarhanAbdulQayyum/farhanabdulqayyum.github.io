@@ -1,0 +1,176 @@
+body {
+    margin: 0px;
+    font-family: Ubuntu;
+    width: 959px;
+}
+
+.header-container {
+    background-color: #313c4e;
+    color: #fff;
+    padding: 25px 15px;
+}
+
+.header-info {
+    width: 71%;
+    float: left;
+    margin-left: 23px;
+}
+
+.name {
+    font-size: 38px;
+    padding-top: 7px;
+    font-weight: 400;
+}
+
+.title {
+    color: #449399;
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+.summary {
+    font-size: 14px;
+    padding-top: 13px;
+    line-height: 18px;
+}
+
+.profile-pic-container {
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+}
+
+.profile-pic {
+    background-image: url("./profilepicresized.jpg");
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin-right: 20px;
+    float: right;
+    border: 6px solid #449399;
+    /* border-width: 6px; */
+    /* border-color: green; */
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact-info-container {
+    background-color: #222a33;
+    color: #fff;
+    /* height: 28px; */
+    margin-top: -1px;
+    margin-bottom: 30px;
+    padding: 0px 30px;
+}
+
+.contact-info-wrapper {
+    padding: 12px 0px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.contact-info {
+    float: left;
+    width: 28%;
+    text-align: center;
+}
+
+.short-width-contact {
+    width: 22%;
+}
+
+.email {
+    /* text-align: left; */
+}
+
+.linkedin {
+    /* text-align: right; */
+}
+
+.cv-body {
+    margin: 0px 38px;
+}
+
+.cv-section {
+    color: #449399;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 4px solid #449399;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.position {
+    font-weight: 700;
+    font-size: 20px;
+    float: left;
+}
+
+.date {
+    font-size: 12px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+    color: #449399;
+    font-style: italic
+}
+
+.company {
+    font-size: 20px;
+    float: left;
+}
+
+.location {
+    font-size: 12px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+    color: #449399;
+    font-style: italic
+}
+
+.jobs-li {
+    font-size: 10px;
+}
+
+.job-bullet {
+    color: #449399;
+    width: 16px;
+    float: left;
+    font-size: 20px;
+}
+
+.job-content {
+    float: left;
+    font-size: 14px;
+    width: 95%;
+    margin-top: 3px;
+    line-height: 18px;
+}
+
+.job-wrapper {
+    margin-bottom: 20px;
+}
+
+.skill {
+    float: left;
+    margin-right: 10px;
+    background-color: #449399;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.certifications {
+    margin-top: 20px;
+}
+
+.education {
+    margin-top: 40px;
+}
